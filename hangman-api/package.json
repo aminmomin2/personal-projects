@@ -1,0 +1,20 @@
+{
+  "name": "hangman-api",
+  "version": "1.0.0",
+  "main": "hangman.js",
+  "scripts": {
+    "start": "node hangman.js",
+    "dev": "nodemon hangman.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

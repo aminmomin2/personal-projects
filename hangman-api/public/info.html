@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangmna API</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1>Hangman API</h1>
+  <h2>Endpoints</h2>
+  <a href="/all" target="_blank"><h3>/all</h3></a>
+  <p>Returns all stored words. Currently there are 415 words in the word bank</p>
+  <a href="/word" target="_blank"><h3>/word</h3></a>
+  <p>Returns one stored word randomly. Options can be further specified, see the parameters menu.</p>
+  <h2>Parameters</h2>
+  <p>The parameters can be combined</p>
+  <a href="/word?number=10" target="_blank"><h3>?number</h3></a>
+  <p>Sets the number of requested words. If it exceeds the maximum stored amount, it will just return all of them</p>
+</body>
+</html>
