@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "hangman-api",
+    "builds": [
+      {
+        "src": "hangman.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "hangman.js"
+      }
+    ]
+  }
