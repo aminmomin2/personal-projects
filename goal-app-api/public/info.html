@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goal App API</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1>Goal App API</h1>
+  <p>
+    The resulting API data is formatted as a JSON array. Pre-formatted HTML output is 
+    available in addition to raw individual values.
+  </p>
+  <ul>
+    <li>q = quote text</li>
+    <li>a = author name</li>
+    <li>c = character count</li>
+    <li>h = pre-formatted HTML quote</li>
+  </ul>
+  <div class="example-output">
+    <p class="example">Example:</p>
+    <pre>[{
+    "q": "Values are like fingerprints. Nobody's are the same, but you leave 'em all over everything you do.",
+    "a": "Elvis Presley",
+    "c": "98",
+    "h": "&lt;blockquote&gt;&ldquo;Values are like fingerprints. Nobody's are the same, but you 
+leave 'em all over everything you do.&rdquo; &mdash; &lt;footer&gt;Elvis Presley&lt;/footer&gt;&lt;/blockquote&gt;"
+},
+// ...MORE DATA... //
+{
+    "q": "Nothing is too high for a man to reach, but he must climb with care and confidence",
+    "a": "Hans Christian Andersen",
+    "c": "82",
+    "h": "&lt;blockquote&gt;&ldquo;Nothing is too high for a man to reach, but he must climb with 
+care and confidence&rdquo; &mdash; &lt;footer&gt;Hans Christian Andersen&lt;/footer&gt;&lt;/blockquote&gt;"
+}]</pre>
+  </div>
+  <h2>Endpoints</h2>
+  <a href="/all" target="_blank">
+    <h3>/all</h3>
+  </a>
+  <p>Returns all stores objects. Currently there are 300 objects in the quote bank</p>
+  <a href="/quote" target="_blank">
+    <h3>/quote</h3>
+  </a>
+  <p>Returns one quote object randomly.</p>
+</body>
+</html>

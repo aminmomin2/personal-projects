@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "goal-app-api",
+    "builds": [
+      {
+        "src": "goal-app-api.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "goal-app-api.js"
+      }
+    ]
+  }
