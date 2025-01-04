@@ -1,0 +1,145 @@
+/* General Body Styles */
+body {
+  font-family: "inter";
+  color: #F8F8F8;
+  background-color: #121212;
+}
+
+/* Main Container */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Title Styling */
+h1.title {
+  font-size: 300%;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+/* Paragraph Styling */
+p {
+  background-color: rgb(39, 39, 39);
+  font-size: 93.75%;
+  width: 70%;
+  padding: 1%;
+  border-radius: 10px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+p.wrong-guesses {
+  margin-top: 40px;
+  width: auto;
+}
+
+p.game-status {
+  width: auto;
+  padding: 1%;
+  margin-top: 40px;
+}
+
+p.game-status.won {
+  background-color: rgb(49, 161, 54);
+}
+
+p.game-status.lose {
+  background-color: rgb(248, 49, 49);
+}
+
+/* Word Section Styling */
+.word-placeholder {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+}
+
+section.word {
+  margin-top: 90px;
+  margin-bottom: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px; 
+}
+
+section.word > span.letter,
+section.word > span.letter-red {
+  font-weight: 500;
+  border-radius: 10px;
+  font-size: 45px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(39, 39, 39);
+  border-bottom: 2px solid white;
+  box-sizing: border-box;
+}
+
+section.word > span.letter-red {
+  color: rgb(248, 49, 49);
+}
+
+
+/* Keyboard Section */
+section.letters {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  gap: 20px;
+  justify-content: center;
+}
+
+section.letters > button.keyboard {
+  font-size: 30px;
+  font-weight: 900;
+  background-color: rgb(161, 161, 161);
+  color: rgb(39, 39, 39);
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+section.letters > button.keyboard:hover {
+  opacity: 0.8;
+}
+
+section.letters > button.keyboard.correct {
+  background-color: rgb(49, 161, 54);
+}
+
+section.letters > button.keyboard.incorrect {
+  background-color: rgb(248, 49, 49);
+}
+
+section.letters > button.keyboard:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* New Game Button */
+button.new-game {
+  margin-top: 50px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(39, 39, 39);
+  border: none;
+  width: auto;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
