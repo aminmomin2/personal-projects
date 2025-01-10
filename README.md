@@ -29,7 +29,7 @@ A web-based implementation of the classic Hangman game, allowing users to guess 
 
 ### Hangman API
 
-A RESTful API that provides endpoints for playing the Hangman game programmatically. Deployed at [https://hangman-api-nine.vercel.app](https://hangman-api-nine.vercel.app).
+A RESTful API that provides endpoints for playing the Hangman game programmatically. Deployed at [hangman-api-nine.vercel.app](https://hangman-api-nine.vercel.app).
 
 - **Features:**
   - Fetch random words using the `/word` endpoint with a configurable count.
@@ -42,7 +42,7 @@ A RESTful API that provides endpoints for playing the Hangman game programmatica
 
 ### Goal App
 
-A productivity application designed to help users set, track, and achieve their goals.
+A productivity application designed to help users set, track, and achieve their goals. Deployed at [personal-projects-olive.vercel.app/login](https://personal-projects-olive.vercel.app/login).
 
 - **Features:**
   - User authentication
@@ -53,11 +53,11 @@ A productivity application designed to help users set, track, and achieve their 
 
 ### Goal App API
 
-A RESTful API that provides endpoints to serve motivational quotes to enhance user experience and personalization.
+A RESTful API that provides endpoints to serve motivational quotes to enhance user experience and personalization. Deployed at [personal-projects-nu-five.vercel.app/](https://personal-projects-nu-five.vercel.app/).
 
 - **Features:**
   - Fetch random quotes using the `/quote` endpoint.
-  - Retrieve all available words via the `all` endpoint.
+  - Retrieve all available words via the `/all` endpoint.
   - Serves static files like documentation or resources from the `./public` directory.
   - CORS enabled for seamless integration with frontend applications.
   - Uses `.env` for flexible and secure configuration (e.g., server port).
@@ -73,3 +73,4 @@ This repository encompasses a range of technologies, including but not limited t
   - Deployment: Vercel
 
 ## Contact
+- **Email:** aminmomin2006@gmail.com
